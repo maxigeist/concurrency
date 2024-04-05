@@ -1,14 +1,26 @@
+use std::fmt::Debug;
+use std::rc::Rc;
 use std::thread;
-use std::time::Duration;
 
-fn hello() {
-    thread::spawn(|| println!("Hello from thread 1"));
-    thread::spawn(|| println!("Hello from thread 2"));
+fn hello(n:u32) {
+    let x = "xxx".to_string();
+    thread::scope(|s|{
+        s.spawn(|| println!("Hello from thread 1 {x}"));
+        s.spawn(|| println!("Hello from thread 2 {x}"));
+    })
+
+        //     )
+    // }
+
+    // for t in threads{
+    //     t.join().unwrap()
+    // }
+
 }
 
 fn main() {
-    println!("====== Hello Threads    =======");
-    hello();
+
+    hello(10);
     println!("====== Good Bye Threads =======");
 
     // uncomment me! thread::sleep(Duration::from_secs(1));
