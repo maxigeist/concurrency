@@ -5,7 +5,7 @@
 1. [Introduction](https://raw.githack.com/FacultadDeIngenieria/concurrency/main/slides/introduction.html)
 3. [Introduction to Thread Programming](https://raw.githack.com/FacultadDeIngenieria/concurrency/main/slides/intro_java_rust.html)
 4. [Parallelism](https://raw.githack.com/FacultadDeIngenieria/concurrency/main/slides/parallel.html)
-5. [Mutual Exclusion](https://raw.githack.com/FacultadDeIngenieria/concurrency/main/slides/mutex.html)
+5. [Mutual Exclusion Introduction](https://raw.githack.com/FacultadDeIngenieria/concurrency/main/slides/mutex-intro.html)
 6. [Concurrency Abstractions - Part 1](https://raw.githack.com/FacultadDeIngenieria/concurrency/main/slides/abstractions1.html)
 7. [Concurrency Abstractions - Part 2](https://raw.githack.com/FacultadDeIngenieria/concurrency/main/slides/abstractions2.html)
 8. **Primer Parcial**
@@ -57,4 +57,6 @@ Finales: 28 Jun y  12 Julio
 
 
 
+## Kahoots
 
+[Introduction](https://create.kahoot.it/share/introduction-to-concurrent-programming/dd6f4485-3286-4e98-a89b-469d40450099)
